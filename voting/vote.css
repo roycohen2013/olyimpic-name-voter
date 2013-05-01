@@ -1,0 +1,119 @@
+body {
+	font: 16px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#container{
+	width: 645px;
+	background-color: #65b1b1;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+#heading{
+	text-align: center;
+	
+}
+
+
+#formstuff {
+	background-color: #c4e6e6;
+	margin: 3px;
+	height: 504px;
+	float: left;
+	width: 300px;
+	margin-left: 0px;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+
+#nameList {
+	margin: 3px;
+	margin-right: 6px;
+	height: 500px;
+	width: 325px;
+	overflow: auto;
+	overflow-x: hidden;	
+	
+	padding-top: 10px;
+	background-color: #f1f4f4;
+	border-radius: 5px;
+	
+	 float: left;
+	 
+}
+
+
+.nameBox {
+	width: 395px;	
+	height: 25px;
+	padding: 2px;
+	padding-top: 7px;
+	padding-left: 7px;
+	padding: auto;
+	overflow-y: hidden;	
+	border-radius: 5px;
+	float: left;
+}
+
+
+.vals {
+	margin-left: 228px;
+	text-decoration: none;
+}
+
+.nam2{
+	float: left;
+}
+
+.nameBox:nth-child(odd) {
+	background-color: #d0ebe6;
+}
+
+
+.nameBox:hover {
+	background-color: #78d5c4;
+	font-weight: bold;
+}
+
+
+#container a {
+	text-decoration: none;
+}
+
+#backButton{
+	width: 200px;
+	height: 23px;
+	text-align: center;
+	padding: 7px;
+	background-color: #c4e6e6;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+#backButton:hover {
+		background-color: #d0ebe6;
+	
+}
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
